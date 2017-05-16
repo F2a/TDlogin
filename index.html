@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>十一国庆、江湖再见</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="normalize.css" />
+        <link rel="stylesheet" type="text/css" href="main.css" />
+    </head>
+    <body>
+      <header id="top"><!-- 顶部固定栏start -->
+        <nav id="nav">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"><img src="images/logo.png" height="50">
+                <div id="nav_box"></div>
+                </a></li>
+                <li></li>
+            </ul>
+        </nav>
+      </header><!-- 顶部固定栏end -->
+      <section>
+        <div class="video">
+            <div class="vcontrol">
+              <button class="on">暂停</button>
+              <button class="on">关闭声音</button>
+            </div>
+            <video preload="metadata" loop id="v1" autoplay src="images/tymyd.mp4"></video>
+            <div class="mask"></div>
+        </div>
+        <div id="fixedma">
+            <p>关注微信了解更多咨询</p>
+            <img src="images/erweima_03.jpg" height="134" width="136" alt="" />
+            <a href="http://wuxia.qq.com/" target="_blank">进入官网</a>
+            <a href="http://wuxia.qq.com/" target="_blank">十一活动</a>
+        </div>
+        <div id="enroll">
+            <a id="contentLogo" href="http://wuxia.qq.com/" target="_blank"></a>
+            <div id="list">
+                <div id="part1">
+                    <p id="fontgq">
+                        <span>十一国庆 </span>/
+                        <span>江湖再见</span>
+                    </p>
+                    <div id="fontzm"></div>
+                    <div id="recruitmenting"></div>
+                    <h4>招募中...</h4>
+                    <p class="jshao">边城浪子大区服务器是对外限量开放的精英体验服，国庆期间限时开放，再次期间加入的玩家更有大礼相送我们欢迎各方新老玩家的加入！</p>
+                    <ul>
+                        <li><a href="http://wuxia.qq.com/" target="_blank">进入官网</a></li>
+                        <li><a href="http://wuxia.qq.com/" target="_blank">国庆活动</a></li>
+                    </ul>
+                    <p class="jshao">活动时间：2016年9月23日—10月7日</p>
+                </div>
+                <div id="part2">
+                    <h1>查询资格</h1>
+                    <a href="http://wuxia.qq.com/" target="_blank" class="m-btn jh-btn" onclick="">
+                        <span>查询精英资格<br />
+                            <em class="en">ACTIVATION</em> 
+                        </span>
+                    </a>                
+                    <h1>立即注册</h1>
+                    <a href="javascript:;" class="m-btn jh-btn" onclick="" id="register">
+                        <span>立即获取资格<br />
+                            <em class="en">ACTIVATION</em> 
+                        </span>
+                    </a>                
+                </div>
+                <div id="part3">
+                    <div class="wrapper">
+                        <div class="container">
+                            <h1>注册</h1>
+                            <form class="form">
+                                <input name="registerTxt" type="text" placeholder="用户名" onfocus="getFocus(this)" minlength="4" maxlength="12" required >
+                                <p></p>
+                                <input form="login" type="email"  placeholder="电子邮箱" onfocus="getFocus(this)" required/>
+                                <p></p>
+                                <input name="registerTxt" type="password" placeholder="密码" onfocus="getFocus(this)" pattern="^\d{6,12}$" required>
+                                <p></p>
+                                <input name="registerTxt" type="password" placeholder="请再次输入密码" onfocus="getFocus(this)" pattern="^\d{6,12}$" required>
+                                <p></p>
+                                <button id="login-button" type="button">立即注册</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>  
+                <div id="part4">
+                    <p>
+                    注册成功
+                    </p>
+                    <span>请点击下方江湖再见领取礼包</span>
+                </div>
+           </div>
+            <ul id="buttons">
+                <li index="0" class="on">
+                    01
+                    <p>精英招募</p>
+                </li>
+                <li index="1">
+                    02
+                    <p>查询资格</p>
+                </li>
+                <li index="2">
+                    03
+                    <p>立即注册</p>
+                </li>
+                <li index="3">
+                    04
+                    <p>江湖再见</p>
+                </li>
+            </ul>
+        </div>
+        <a href="javascript:;" id="lbtn"></a>
+        <a href="javascript:;" id="rbtn"></a>
+        <a href="http://wuxia.qq.com/" id="goodbye" target="_blank"><img  src="images/w2.png" height="123" width="341" alt="" /></a>
+        <div id="alertReg">
+          <div>
+            <p>请先完成注册</p>
+            <span onclick="times(this)">&times;</span>
+          </div>
+        </div>
+      </section>
+      <footer>
+              <div>
+                  <p>
+                      <a href="#" >互动娱乐</a>
+                      |
+                      <a href="#" >服务条款</a>
+                      |
+                      <a href="#" >广告服务</a>
+                      |
+                      <a href="#/" >游戏客服</a>
+                      |
+                      <a href="#" >游戏地图</a>
+                      |
+                      <a href="#" >游戏活动</a>
+                      |
+                      <a href="#" >商务合作</a>
+                      |
+                      <a href="#" >网站导航</a>
+                  </p>
+              <p class="e">COPYRIGHT &#169; 1998 – 2016 TENCENT. ALL RIGHTS RESERVED.</p>
+              <p><a href="#" >@fro.com 版权所有</a></p>
+              </div>
+      </footer>
+    <script type="text/javascript" src="main.js"></script>
+    </body>
+</html>
